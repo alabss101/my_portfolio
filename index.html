@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name='author' contents='Alexander Suleyman'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/media.css">               
+    </head>
+    <body>
+          
+        <header class="header">
+            <div class="container">
+                <!--Header nav-->
+                <div class="header-nav" id="home-lnk">
+                    <a href="#!" class="logo"> <img src="./img/header/A-logo.png" alt="logo"></a>
+                    <nav id="nav" class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#!" data-link="home-lnk" class="nav-link active">Главная</a></li>
+                            <li class="nav-item"><a href="#!" data-link="work-lnk" class="nav-link">Работы</a></li>
+                            <li class="nav-item"><a href="#!" data-link="service-lnk" class="nav-link">Услуги</a></li>
+                            <li class="nav-item"><a href="#!" data-link="work-lnk" class="nav-link">Обо мне</a></li>
+                            <li class="nav-item"><a href="#!" data-link="contacts-lnk" class="nav-link">Контакты</a></li>
+                        </ul>
+                        <button id="nav-btn" class="nav-button">
+                            <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="nav button">
+                        </button>                                            
+                    </nav>
+                </div>
+                
+                <!--Header content-->
+                <div class="header-row">
+                    <div class="header-content">                        
+                        <p>Александр Сулейман</p>
+                        <h1 class="header-heading">Дизайн и разработка сайтов</h1>                        
+                    </div>
+                    <div class="header-img">
+
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
+                            <img src="./img/header/hero.png" alt="">
+                        </picture>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <section class="services">
+            <div class="container">
+                <div class="services-row">
+                    <div class="service-card" id="service-lnk">
+                        <img class="service-card-img" src="./img/services/01.png" alt="UI/UX Design">
+                        <h3 class="service-card-title">UI/UX Design</h3>
+                        <p>Создание привлекательного внешнего облика с понятным и удобным интерфейсом.</p>                        
+                    </div>
+
+                    <div class="service-card">
+                        <img class="service-card-img" src="./img/services/02.png" alt="Development">
+                        <h3 class="service-card-title">Development</h3>
+                        <p>Разработка, проектирование и реализация новых программных решений. </p>                        
+                    </div>
+
+                    <div class="service-card">
+                        <img class="service-card-img" src="./img/services/03.png" alt="software testing">
+                        <h3 class="service-card-title">software testing</h3>
+                        <p>Проверка и оценка работоспособности, надежности и соответствия функциональным требованиям.</p>                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <div class="portfolio-title">
+                    <h2 id="work-lnk" class="title-1">Портфолио</h2>
+                </div>
+                <div class="project">
+                    <img src="./img/portpholio/01.jpg" alt="Online fashion store" class="project-img">
+                    <h3 class="project-title"><a href="#!">Online fashion store - Homepage</a></h3>
+                </div>
+
+                <div class="project">
+                    <img src="./img/portpholio/02.jpg" alt="Reebok Store" class="project-img">
+                    <h3 class="project-title"><a href="#!">Reebok Store - Concept</a></h3>
+                </div>
+
+                <div class="project">
+                    <img src="./img/portpholio/03.jpg" alt="Braun Landing Page" class="project-img">
+                    <h3 class="project-title"><a href="#!">Braun Landing Page - Concept</a></h3>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="contacts">
+            <div class="container">
+                <div class="contacts-title">
+                    <h2 class="title-1" id="contacts-lnk">Контакты</h2>
+                </div>
+                <div class="contacts-content">
+                    <p>Want to know more or just chat?<br>You are welcome!</p>
+                </div>
+                <div class="contacts-button">
+                    <a href="#!" class="btn">Отправить сообщение</a>
+                </div>
+                <div class="contacts-social">
+                    <a href="#!"><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"</a>
+                    <a href="#!"><img src="./img/socials/Instargam.svg" alt="Instargam"</a>
+                    <a href="#!"><img src="./img/socials/Behance.svg" alt="Behance"</a>
+                    <a href="#!"><img src="./img/socials/Dribble.svg" alt="Dribble"</a>
+                </div>
+                <div class="contacts-footer">
+                    <p>Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+                </div>
+            </div>
+        </footer>        
+        <script src="./js/main.js"></script>
+    </body>
+</html>
